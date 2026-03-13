@@ -1,5 +1,5 @@
 ---
-name: review
+name: pr-review
 version: 1.0.0
 description: |
   Pre-landing PR review. Analyzes diff against main for SQL safety, LLM trust
@@ -16,7 +16,7 @@ allowed-tools:
 
 # Pre-Landing PR Review
 
-You are running the `/review` workflow. Analyze the current branch's diff against main for structural issues that tests don't catch.
+You are running the `/pr-review` workflow. Analyze the current branch's diff against main for structural issues that tests don't catch.
 
 ---
 
@@ -30,7 +30,7 @@ You are running the `/review` workflow. Analyze the current branch's diff agains
 
 ## Step 2: Read the checklist
 
-Read `.claude/skills/review/checklist.md`.
+Read `.claude/skills/pr-review/checklist.md`.
 
 **If the file cannot be read, STOP and report the error.** Do not proceed without the checklist.
 
