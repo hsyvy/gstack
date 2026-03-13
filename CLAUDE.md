@@ -18,7 +18,7 @@ gstack/
 │   ├── test/        # Integration tests + fixtures
 │   └── dist/        # Compiled binary
 ├── ship/            # Ship workflow skill
-├── review/          # PR review skill
+├── pr-review/       # PR review skill
 ├── plan-ceo-review/ # /plan-ceo-review skill
 ├── plan-eng-review/ # /plan-eng-review skill
 ├── retro/           # Retrospective skill
